@@ -13,6 +13,6 @@
   },
   "scripts": {
     "start-dev": "env $(cat .env | xargs) nodemon daemon.js",
-    "start": "env $(cat .env | xargs) forever start daemon.js"
+    "start": "env $(cat .env | xargs) forever daemon.js"
   }
 }
